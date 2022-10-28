@@ -17,11 +17,12 @@ r merupakan jari-jari lingkaran
 Phi merupakan nilai konstanta di matematika sementara jari-jari merupakan jarak antara titik pusat dengan tepi lingkaran. Sebetulnya ada rumus lain untuk menghitung keliling lingkaran yaitu dengan menggunakan diameter, tapi pada kasus ini kita cukup menggunakan jari jari lingkaran saja.
 
 Flowchart Menghitung Luas & Keliling Lingkaran
+
 <img src="img/flowchart.PNG" alt="Flowchart" width="300" height="600">
 
 
 <img src="img/alur.PNG" alt="Flowchart" width="600" height="200">
-<img src="img/output.PNG" alt="Flowchart" width="600" height="200">
+<img src="img/output.PNG" alt="Flowchart" width="1500" height="100">
 
 **PENJELASAN :**
 *   Program diatas saya mengimport modul math yang sudah di sediakan oleh python. Fungsinya supaya saya dapat menyertakan nilai phi yang sudah tersedia dalam modul tersebut dengan perintah math.pi jika kita coba mencetak fungsi tersebut maka akan menghasilkan nilai 3.14
