@@ -12,24 +12,29 @@ Rumus Luas & Keliling Lingkaran
 Luas     = π × r²
 Keliling = 2 x π × r
 
+
+
 <img src="img/flowchart.PNG" alt="Flowchart" width="300" height="600">
 
 
 **PENJELASAN :**
+
 Berikut adalah penjelasan source code program setiap barisnya :
 
-1.  Buat fungsi terlebih dahulu.(Dalam Python, sebuah fungsi didefinisikan menggunakan kata kunci def).
+*   Buat fungsi terlebih dahulu.(Dalam Python, sebuah fungsi didefinisikan menggunakan kata kunci def).
     def luas_lingkaran():
 	jari_jari = int(input("Masukan jari-jari lingkaran: "))
 	luas = 22/7 * (float(jari_jari) ** 2)
 	print("Hasilnya adalah : ", format(luas,'.2f'))
-	return luas
-2.  def keliling_lingkaran():
+    return luas
+
+*   def keliling_lingkaran():
 	jari_jari2 = int(input("Masukan jari-jari lingkaran: "))
 	keliling = 2 * 22/7 * float(jari_jari2)
 	print("Hasilnya adalah : ", format(keliling,'.2f'))
 	return keliling
-3.  while True:
+
+*   while True:
 	print("====== SELAMAT DATANG DI PROGRAM LINGKARAN ======")
 	print("Berikut adalah menu yang tersedia:")
 	print("1. Mencari luas Lingkaran")
@@ -47,6 +52,8 @@ Berikut adalah penjelasan source code program setiap barisnya :
 	else: 
 		print("Keyword Anda Salah!!, Anda bisa coba lagi!!")
 
+print ("Luas Lingkaran \t= ",format(luas,'.2f'))
+print ("Keliling Lingkaran \t= ",format(keliling,'.2f'))
 
 Luas Lingkaran          =  40.72
 Keliling Lingkaran      =  22.62
