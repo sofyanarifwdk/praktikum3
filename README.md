@@ -4,15 +4,12 @@
 **DAFTAR ISI**
 > - [Rumus Luas & Keliling Lingkaran](Rumus_Luas_&_Keliling_Lingkaran)
 > - [Flowchart Menghitung Luas & Keliling Lingkaran](Flowchart_Menghitung_Luas_&_Keliling_Lingkaran)
-
+> - [PENJELASAN](PENJELASAN)
 
 Rumus Luas & Keliling Lingkaran
+Luas     = π × r² <br> Keliling = 2 x π × r
 
-Luas     = π × r²
-Keliling = 2 x π × r
-
-Nilai Phi yang akan kita gunakan adalah 3.14
-r merupakan jari-jari lingkaran
+Nilai Phi yang akan kita gunakan adalah 3.14 <br> r merupakan jari-jari lingkaran
 
 Phi merupakan nilai konstanta di matematika sementara jari-jari merupakan jarak antara titik pusat dengan tepi lingkaran. Sebetulnya ada rumus lain untuk menghitung keliling lingkaran yaitu dengan menggunakan diameter, tapi pada kasus ini kita cukup menggunakan jari jari lingkaran saja.
 
@@ -24,7 +21,7 @@ Flowchart Menghitung Luas & Keliling Lingkaran
 <img src="img/alur.PNG" alt="Flowchart" width="600" height="200">
 <img src="img/output.PNG" alt="Flowchart" width="1500" height="100">
 
-**PENJELASAN :**
+PENJELASAN
 *   Program diatas saya mengimport modul math yang sudah di sediakan oleh python. Fungsinya supaya saya dapat menyertakan nilai phi yang sudah tersedia dalam modul tersebut dengan perintah math.pi jika kita coba mencetak fungsi tersebut maka akan menghasilkan nilai 3.14
 
 *   Selanjutnya kita memerlukan nilai jari-jari (r) yang nantinya akan di masukan oleh pengguna pada layar console. Kita menggunakan fungsi input() yang nilainya di konversi ke tipe data float (bilangan riil). Ingat bahwa fungsi input() akan menganggap semua nilai inputan bertipe string, sehingga kita perlu melakukan konversi ke tipe yang diinginkan.
