@@ -15,7 +15,7 @@ Keliling = 2 x π × r
 Nilai Phi yang akan kita gunakan adalah 3.14
 r merupakan jari-jari lingkaran
 
-<img src="img/flowchart.PNG" alt="Flowchart" width="460" height="345">
+<img src="img/flowchart.PNG" alt="Flowchart" width="300" height="600">
 
 
 PENJELASAN :
