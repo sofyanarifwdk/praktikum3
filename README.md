@@ -22,11 +22,11 @@ Keliling = 2 x π × r
 Berikut adalah penjelasan source code program setiap barisnya :
 
 *   Buat fungsi terlebih dahulu.(Dalam Python, sebuah fungsi didefinisikan menggunakan kata kunci def).
-    def luas_lingkaran():
-	jari_jari = int(input("Masukan jari-jari lingkaran: "))
-	luas = 22/7 * (float(jari_jari) ** 2)
-	print("Hasilnya adalah : ", format(luas,'.2f'))
-    return luas
+    \ndef luas_lingkaran():
+	\njari_jari = int(input("Masukan jari-jari lingkaran: "))
+	\nluas = 22/7 * (float(jari_jari) ** 2)
+	\nprint("Hasilnya adalah : ", format(luas,'.2f'))
+    \nreturn luas
 
 *   def keliling_lingkaran():
 	jari_jari2 = int(input("Masukan jari-jari lingkaran: "))
