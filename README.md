@@ -35,6 +35,6 @@ Flowchart Menghitung Luas & Keliling Lingkaran
 
 *   Jika dilihat hasil luas dan keliling lingkaran mempunyai angka pecahan yang cukup banyak, untuk mengambil 2 angka pecahan saja kita pakai fungsi format() seperti berikut:
 
-<img src="img/output1.PNG" alt="Flowchart" width="1010" height="250">
+<img src="img/output1.PNG" alt="Flowchart" width="1500" height="100">
 
-Dengan penggunaan fungsi format(luas,’.2f’) akan menghasilkan 2 angka pecahan saja.
+*   Dengan penggunaan fungsi format(luas,’.2f’) akan menghasilkan 2 angka pecahan saja.
